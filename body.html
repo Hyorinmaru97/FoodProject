@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="css/style1.css">
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.offcanvas.min.css">
+<meta charset="utf-8">
+<script src="js/jquery-3.1.1.min.js"> </script>
+<script src="js/bootstrap.min.js"> </script>
+<script src="js/bootstrap.offcanvas.min"> </script>
+ <title>Главная</title>
+ <style type="text/css">
+ body
+ {
+margin:0;
+}
+.blend
+ {
+width:100%;
+height:100%;
+background:#eac071 no-repeat center center;
+}
+.blend.multiply
+ {
+  margin-top: -20px;
+background-blend-mode: multiply;
+}
+</style>
+ <style>
+ nav{
+  margin-top: 0%;
+ }
+   body {
+  
+    color: green; /* Цвет текста */
+   }
+  </style>
+  <style>
+   @font-face {
+    font-family: OwnHand; /* Имя шрифта */
+    src: url(fonts/OwnHand.ttf); /* Путь к файлу со шрифтом */
+   }
+  
+  </style>
+    <style>
+        body{
+            margin: 0;
+            padding: 0; }
+        #box1{
+            height: 100vh;
+            width: 101%;
+            background-image: url(i1.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+
+        }
+        #box2{
+            height: 100vh;
+            width: 100%;
+            background-image: url(i2.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        #box3{
+            height: 100vh;
+            width: 100%;
+            background-image: url(i3.jpg);
+            background-size: cover;
+            display: table;
+            background-attachment: fixed;
+        }
+        h1{
+            font-family: arial black;
+            font-size: 50px;
+            color:white;
+            margin: 0px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .row{
+          margin-top: -20px;
+        }
+
+
+    </style>
+
+</head>
+
+ 	  <body>
+<!--Мню навигации-->
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Бренд и переключатель, который вызывает меню на мобильных устройствах -->
+        <div class="navbar-header ">
+            <!-- Кнопка с полосочками, которая открывает меню на мобильных устройствах -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- Бренд или логотип фирмы -->
+          <a class="navbar-brand" href="https://vk.com/pantionnn"><img src="img/картинка12.png" width="110"></a>
+        </div>
+        <!-- Содержимое меню (коллекция навигационных ссылок, формы и др.) -->
+        <div class="collapse navbar-collapse" id="main-menu">
+            <!-- Список ссылок, расположенных слева -->
+            <ul class="nav navbar-nav">
+                <!--Элемент с классом active отображает ссылку подсвеченной -->
+                <li class=""><a href="body.html">Главная <span class="sr-only">(current)</span></a></li>
+                
+                <li class="dropdown">
+        <a href="#" class ="dropdown-toggle" data-toggle="dropdown">Блюда <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="news.html">One Ok Rock</a></li>
+            <li><a  tabindex="-1" href="news1.html">BabyMetal</a></li>
+        </ul>
+    </li>
+                <li class=""><a href="body.html">Видео <span class="sr-only">(current)</span></a></li>
+                <li><a href="galery.html">Галерея</a></li>
+                <li><a href="forum.html">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="blend multiply" col-sm-12 col-md-12 col-xm-12" id="box1" >
+            <h1>МОРЕПРОДУКТЫ</h1>
+        </div>
+        <div class="blend multiply"  id="box2">
+            <h1>ЗАВТРАКИ </h1>
+        </div>
+        <div class="blend multiply" id="box3">
+            <h1>ФРАНЦУЗСКАЯ КУХНЯ </h1>
+        </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script src="js/bootstrap.offcanvas.min.js"></script>  
+    </body>
+</html>

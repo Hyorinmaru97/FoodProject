@@ -1,0 +1,67 @@
+.social{
+position: fixed;
+top: 30%;
+left: 0%;
+z-index: 1;
+cursor: pointer;
+}
+.dw-button{
+
+	margin-bottom: 0px;
+	background-color: #353252;
+	padding: 5px;
+}
+div.dw-button a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+
+}
+a i.fa{
+	font-size: 1.36em;
+	text-align: center;
+
+}
+.dw-share{
+
+	float: left;
+	width: 10%;
+
+}
+.dw-text{
+	margin-top: -0.2em;
+	float: right;
+	font-size: 1.48em;
+	position: center;
+	top: 12px;
+
+}
+.dw-facebook{
+
+
+	background-color: #3b5998;}
+
+.dw-vk{background-color: #507299;}
+.dw-twitter{background-color: #33bdf1;}
+.dw-youtube{background-color: #e62117;}
+.dw-google-plus{background-color: #a8120c;}
+
+
+.dw-button{
+
+	width: 45px;
+	height: 31px;
+	padding: 8px;
+	overflow: hidden;
+	transition: all .2s;
+}
+.dw-facebook:hover{width: 60px;}
+
+.dw-youtube:hover{width: 60px;}
+.dw-twitter:hover{width: 60px;}
+.dw-vk:hover{width: 60px;}
+.dw-google-plus:hover{width: 60px;}

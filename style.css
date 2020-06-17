@@ -1,0 +1,90 @@
+body{ 	
+		font-family: 'Arial', sans-serif;
+		overflow-y: hidden;
+		background-image: url(img/04.png);
+		background-attachment: fixed;
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing:antialiased;
+}
+.container{
+	margin-top: -0.7%;
+	background-color: rgba(244, 249, 249, 0.6); 
+	max-width: 60%;
+	padding: 2%;
+}
+.parallax {
+
+	margin-top: 2%;
+	height: 400px;
+
+
+}
+.info{
+	margin: 0%;
+    vertical-align: middle;
+	text-align: center;
+	font-family: arial black;
+	font-size: 36px;
+	position: relative;
+	color: #FF4500
+}
+h2{
+	font-size: 3.2em;
+	text-align: center;
+
+}
+p{	
+	font-size: 1.2em;
+	 text-indent: 20px;
+	 padding: 10px;
+}
+h3{	
+
+	font-size: 2.2em;
+
+}
+   b{
+   	color: #9400D3;
+   }
+  
+   }
+   .text{
+
+   }
+   .list{
+   	margin-left: 37%;
+
+   }
+   i{
+   	font-size:15pt;
+
+   }
+#lili{
+	list-style: none;
+    list-style-image: url(img/01.png);
+
+}
+hr{
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;    
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+li{
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 1.2em;
+}
+footer{
+	font-size: 0.8em;
+}
